@@ -1,5 +1,8 @@
+/* Her i import the famili font Inter */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Generic style */
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +27,7 @@ body{
     background: linear-gradient(180deg, #03a793 0%, #426F97 100%);
 }
 
+/* Contact */
 .title{
     position: relative;
     padding: 5%;
@@ -83,6 +87,7 @@ body{
     transition: 0.3s all linear;
 }
 
+/* This is the map layout including in the form */
 .map iframe{
     width: 100%;
     height: 100%;
