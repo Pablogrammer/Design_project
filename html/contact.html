@@ -15,11 +15,11 @@
 <body>
 
     <header>
-        <nav class="nav_link">
+        <nav class="topnav">
             <img src="../images/icono.png" alt="logo" class="logo">
-            <ul>
+            <ul class="nav_link">
                 <li><a class="contact-link" href="./index.html">Home</a></li>
-                <li><a class="contact-link" href="#">Travels</a></li>
+                <li><a class="contact-link" href="./travels.html">Travels</a></li>
                 <li><a class="contact-link" href="#">FAQ</a></li>
                 <li><a class="contact-link" href="./contact.html">Contact</a></li>
             </ul>
@@ -28,7 +28,13 @@
                 <li><a href="#">Login</a></li>
                 <li id="singup"><a href="#">Sign Up</a></li>
             </ul>
+            
         </nav>
+        <button class="hamburger hamburger--emphatic" type="button" onclick="myFunction()">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
     </header>
     
     <h1 class="title">Contact</h1>
@@ -57,5 +63,6 @@
         </div>
         
     </footer>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
