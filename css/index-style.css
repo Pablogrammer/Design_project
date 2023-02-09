@@ -27,7 +27,10 @@ body{
     left: 40%;
     top: 200px;
     width: 50%;
+<<<<<<< Updated upstream
     z-index: -1;
+=======
+>>>>>>> Stashed changes
 }
 
 /* This is the specific part "ADVENTURE" inside the title */
@@ -52,7 +55,11 @@ body{
     background-position: top;
     background-attachment: fixed;
     position: relative;
+<<<<<<< Updated upstream
     margin-top: 50px;
+=======
+    margin-top: 80px;
+>>>>>>> Stashed changes
     height: 1080px;
     width: 100vw;
 }

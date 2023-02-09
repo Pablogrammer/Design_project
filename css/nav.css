@@ -36,12 +36,19 @@ a{
     padding-right: 20px;
 }
 
+<<<<<<< Updated upstream
 .contact-link:hover{
     background-color:rgb(0, 85, 255);
     color: white;
     border-radius: 12px;
     transition: all 300ms;
     padding: 10px
+=======
+    background-color: white;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+>>>>>>> Stashed changes
 }
 
 .logo{
@@ -153,6 +160,7 @@ overflow: hidden;
   background-color: transparent !important; 
 }
 
+<<<<<<< Updated upstream
   .hamburger--emphatic.is-active .hamburger-inner::before {
     left: -80px;
     top: -80px;
@@ -228,3 +236,29 @@ overflow: hidden;
   }
 } 
 
+=======
+@media screen and (max-width: 600px) {
+    .nav_link a:not(:first-child) {display: none;}
+    .nav_link a.logo {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the nav_link with JavaScript when the user clicks on the icon. This class makes the nav_link look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .nav_link.responsive {position: relative;}
+    .nav_link.responsive a.logo {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav_link.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+  }
+
+>>>>>>> Stashed changes
