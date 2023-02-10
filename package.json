@@ -1,19 +1,26 @@
 {
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "npm-run-all": "^4.1.5",
-    "rimraf": "^4.1.2"
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
     "parcel": "^2.8.3",
     "parcel-plugin-imagemin": "^4.0.2",
+    "rimraf": "^4.1.2",
     "sass": "^1.58.0"
   },
   "name": "project",
   "version": "1.0.0",
+  "browserslist" : "> 0.5% last 4 versions, not dead",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "parcel:desarrollo" : "parcel html/index.html",
+    "parcel:produccion" : "parcel build html/index.html --public-url './'",
+    "limpieza" : "rimraf dist .cache .cache-loader",
+    "des" : "npm-run-all limpieza parcel:desarrollo",
+    "prod" : "npm-run-all limpieza parcel:produccion"
   },
   "repository": {
     "type": "git",
