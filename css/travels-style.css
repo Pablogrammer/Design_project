@@ -29,11 +29,13 @@ body{
 }
 
 .target{
-    background-color: rgb(53, 53, 53);
+    background-color: rgba(0, 0, 0, 0.609);
     border-radius: 16px;
-    width: 200px;
-    height: 300px;
-    display: flex;
+    width: 600px;
+    height: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
     
 }
 
@@ -44,4 +46,5 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 3rem;
 }
