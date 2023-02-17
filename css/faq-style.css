@@ -13,7 +13,6 @@
 
 html{
     width: 100%;
-    height: 100vh;
 }
 
 body{
@@ -23,9 +22,13 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-    background: rgb(3,167,147);
     background: linear-gradient(180deg, #03a793 0%, #426F97 100%);
     
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
 }
 
 #title{
@@ -35,7 +38,6 @@ body{
 
 .faq-container{
     width: 50%;
-    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -51,5 +53,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: padding .5s, border .5s;
+
 }
+
+.arrow {
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    visibility: hidden;
+}
+
+
+
+.question:hover .arrow{
+    visibility: visible;
+}
+
+.question:hover{
+    padding: 60px;
+    border: white 5px solid;
+
+}
+
 

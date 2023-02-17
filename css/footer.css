@@ -7,14 +7,14 @@ footer {
     color:black;
     text-align:center;
     justify-content: center;
-    position:absolute;
-    bottom:0;
-    left:0;
     width:100%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .footer-container{
     display: flex;
+
 
 }
 
@@ -29,6 +29,4 @@ footer {
     height: 40px;
 }
 
-footer a{
-    padding: 0;
-}
+
