@@ -13,8 +13,7 @@
   },
   "name": "project",
   "version": "1.0.0",
-  "browserslist" : "> 0.5% last 4 versions, not dead",
-  "main": "index.js",
+  "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
     "parcel:desarrollo" : "parcel html/index.html",
     "parcel:produccion" : "parcel build html/index.html --public-url './'",
