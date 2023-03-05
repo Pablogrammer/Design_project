@@ -80,6 +80,7 @@
 		background: #ffffff;
 		font-size: 1rem;
 		font-weight: 500;
+		width: 100%;
 		color: $color_black;
 		cursor: pointer;
 		&:hover {
@@ -127,5 +128,16 @@
 			height: 150%;
 			border-radius: 18px;
 		}
+	}
+
+	.contact-form{
+		textarea{
+			height: 100px;
+		}
+	}
+
+	.title{
+		margin: 0;
+		padding: 0;
 	}
 }

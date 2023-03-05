@@ -49,17 +49,25 @@
 .fondo{
 	z-index: -1;
 	position: absolute;
-	top: 40px;
+	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
 }
 
-
+#img_fondo {
+	background: url('../images/fondo_2k.jpg') no-repeat center top;
+	position: absolute;
+	left: 0;
+	top:80px;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+}
 
 @media screen and (max-width: 800px) {
-	.fondo{
+	#img_fondo{
 		top: 0;
 	}
 	#title-container{
@@ -67,6 +75,25 @@
 	}
 }
 
+@media (min-width: 800px) {
+	.fondo {
+		background: url('../images/fondo_1920x1080.jpg') no-repeat center top;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+	.fondo {
+		background: url('../images/fondo_tablet.jpg') no-repeat center top;
+	}
+
+}
+
+@media only screen and (max-width: 599px) {
+	.fondo {
+		background: url('../images/fondo_movil.jpg') no-repeat center top;
+	}
+
+}
 
 @media only screen and (max-width: 520px) {
 	#title {
