@@ -1,0 +1,29 @@
+/* This position the footer on the bottom and add some general styles like the color and text */
+footer {
+	height: 50px;
+	line-height: 50px;
+	background: $color_white;
+	color: $color_black;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+
+	
+}
+
+.footer-container {
+	display: flex;
+}
+
+.github {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#github_logo {
+	width: 40px;
+	height: 40px;
+}

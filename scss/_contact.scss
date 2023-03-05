@@ -1,0 +1,122 @@
+
+
+/* Here i import the family font Inter */
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+/* Generic style */
+/* Contact */
+/* This is the map layout including in the form */
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+
+}
+
+html {
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	font-family: $font-family_inter;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: $color_white;
+	background: linear-gradient(130deg, #03a793 0%, #426F97 100%);
+	margin-bottom: 0;
+}
+
+.title {
+	position: relative;
+	padding: 5%;
+	font-size: 900;
+	font-family: $font-family_inter;
+	font-weight: 400;
+	font-size: 46px;
+	z-index: -1;
+}
+
+.contact-container {
+	max-width: 960px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
+}
+
+.form-container {
+	padding: 20px;
+}
+
+.contact-form {
+	display: grid;
+	row-gap: 1rem;
+	input {
+		width: 100%;
+		border: none;
+		outline: none;
+		background: white;
+		padding: 10px;
+		color: $color_black;
+		font-size: 0.9rem;
+		border-radius: 0.4rem;
+	}
+	textarea {
+		width: 100%;
+		border: none;
+		outline: none;
+		background: white;
+		padding: 10px;
+		color: $color_black;
+		font-size: 0.9rem;
+		border-radius: 0.4rem;
+		resize: none;
+		height: 200px;
+	}
+	.send-button {
+		border: none;
+		outline: none;
+		background: #ffffff;
+		font-size: 1rem;
+		font-weight: 500;
+		color: $color_black;
+		cursor: pointer;
+		&:hover {
+			background: #03a793;
+			transition: 0.3s all linear;
+		}
+	}
+}
+
+
+.map {
+	iframe {
+		width: 100%;
+		height: 100%;
+		border-radius: 18px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.contact-container {
+		max-width: 80%;
+		width: 100%;
+		display: grid;
+		justify-content: center;
+		row-gap: 1rem;
+		align-content: center;
+		justify-items: center;
+	}
+	.map {
+		iframe {
+			width: 100%;
+			height: 150%;
+			border-radius: 18px;
+		}
+	}
+}

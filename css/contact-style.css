@@ -23,8 +23,8 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-    background: rgb(3,167,147);
     background: linear-gradient(130deg, #03a793 0%, #426F97 100%);
+    
 }
 
 /* Contact */

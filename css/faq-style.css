@@ -69,14 +69,9 @@ p{
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 2000px) {
     body{
-        background-size: 1000px 5px, 5px 1000px, 1000px 5px, 5px 1000px;
-    }
-
-    footer{
-        position: relative;
-        bottom: 0;
+        background-size: 2000px 5px, 5px 2000px, 2000px 5px, 5px 2000px;
     }
 }
 

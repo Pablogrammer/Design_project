@@ -12,7 +12,8 @@
     width: 100vw;
     display: flex;
     font-family: 'Inter';   
-    max-height:50px;
+    max-height:80px;
+    z-index: 1;
 }
 
 a{
@@ -54,9 +55,9 @@ a{
 
 .logo{
     padding: 0 10px;
-    border-radius: 30px;
     padding-right: 20px;
     max-height:50px;
+    align-self: center;
 }
 
 
