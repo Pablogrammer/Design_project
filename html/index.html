@@ -47,9 +47,22 @@
             <img id="logo_init" src="../images/icono2.png" alt="logo">
         </div>
         
-        <div id="img_fondo">
-            
-        </div>
+        <picture class="fondo">
+
+            <source type="image/jpg"  media="(max-width: 799px)" srcset="../images/fondo300.jpg" class="fondo"/>
+
+            <source type="image/jpg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="../images/fondo700.jpg" class="fondo"/>
+
+            <source type="image/jpg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="../images/fondo1000.jpg" class="fondo"/>
+
+            <source type="image/jpg"  media="(min-width: 1800px)" srcset="../images/fondo1600.jpg" class="fondo"/>
+
+            <source type="image/jpg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="../images/fondo700.jpg" class="fondo">
+
+            <source type="image/jpg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="../images/fondo1000.jpg" class="fondo"/>
+
+            <img src="../images/fondo1600.jpg" alt="fondo" class="fondo"/>
+        </picture>
 
     
 
