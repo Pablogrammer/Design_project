@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Design by foolishdeveloper.com -->
-    <title>Glassmorphism login Form Tutorial in html css</title>
+    <title>Login</title>
  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -10,55 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../scss/main.scss">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
 
 
 </head>
-<style>
-  
-  body {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(180deg, #03a793 0%, #426F97 100%);
-  font-family: 'Inter';
-}
 
-ul{
-  margin: 0;
-}
-
-a{
-  display: inline;
-}
-
-.register-a{
-  text-decoration: underline;
-  color: blue;
-  font-size: 15px;
-}
-
-.btn-login {
-  font-size: 0.9rem;
-  letter-spacing: 0.05rem;
-  padding: 0.75rem 1rem;
-}
-
-.btn-google {
-  color: white !important;
-  background-color: #ea4335;
-}
-
-.btn-facebook {
-  color: white !important;
-  background-color: #3b5998;
-}
-</style>
-<body>
+<body class="form_body">
   <header>
     <nav class="topnav">
-        <img src="../images/icono.png" alt="logo" class="logo">
+        <img src="../images/icono2.png" alt="logo" class="logo">
         <ul class="nav_link">
             <li><a class="contact-link" href="./index.html">Home</a></li>
             <li><a class="contact-link" href="./activities.html">Activities</a></li>
@@ -105,7 +67,7 @@ a{
                 <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign
                   in</button>
               </div>
-              <p>You don't have an account yet? <a class="register-a" href="./register.html">Register</a></p>
+              <p id="info">You don't have an account yet? <a class="register-a" href="./register.html">Register</a></p>
               <hr class="my-4">
               <div class="d-grid mb-2">
                 <button class="btn btn-google btn-login text-uppercase fw-bold" type="submit">

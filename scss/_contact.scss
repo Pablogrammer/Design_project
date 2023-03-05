@@ -6,21 +6,7 @@
 /* Contact */
 /* This is the map layout including in the form */
 
-* {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-
-}
-
-html {
-	width: 100%;
-	height: 100vh;
-}
-
-body {
+.contact_body {
 	font-family: $font-family_inter;
 	display: flex;
 	flex-direction: column;
@@ -28,12 +14,18 @@ body {
 	justify-content: center;
 	color: $color_white;
 	background: linear-gradient(130deg, #03a793 0%, #426F97 100%);
-	margin-bottom: 0;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
 }
 
 .title {
 	position: relative;
-	padding: 5%;
+	padding: 20px;
 	font-size: 900;
 	font-family: $font-family_inter;
 	font-weight: 400;
@@ -54,8 +46,10 @@ body {
 }
 
 .contact-form {
+
 	display: grid;
 	row-gap: 1rem;
+
 	input {
 		width: 100%;
 		border: none;
@@ -66,6 +60,7 @@ body {
 		font-size: 0.9rem;
 		border-radius: 0.4rem;
 	}
+
 	textarea {
 		width: 100%;
 		border: none;
@@ -78,6 +73,7 @@ body {
 		resize: none;
 		height: 200px;
 	}
+
 	.send-button {
 		border: none;
 		outline: none;
@@ -101,6 +97,19 @@ body {
 		border-radius: 18px;
 	}
 }
+
+
+@media (min-width: 2000px){
+
+	.title{
+		font-size: 80px;
+	}
+
+	.contact-container{
+
+	}
+}
+
 
 @media screen and (max-width: 700px) {
 	.contact-container {

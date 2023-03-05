@@ -1,0 +1,23 @@
+/* Her i import the famili font Inter */
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+/* Generic style */
+
+
+.activities_body {
+	font-family: $font-family_inter;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: $color_black;
+	background: linear-gradient(310deg, #03a793 0%, #426F97 100%);
+	margin-bottom: 50px;
+	margin: 70 0 70 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+    
+}
