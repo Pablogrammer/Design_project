@@ -80,7 +80,7 @@
 		background: #ffffff;
 		font-size: 1rem;
 		font-weight: 500;
-		width: 100%;
+		width: 108%;
 		color: $color_black;
 		cursor: pointer;
 		&:hover {
@@ -139,5 +139,9 @@
 	.title{
 		margin: 0;
 		padding: 0;
+	}
+
+	footer{
+		visibility: hidden;
 	}
 }
