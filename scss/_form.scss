@@ -1,5 +1,12 @@
 
-.form_content{
+html{
+	overflow: scroll;
+}
+
+.container_form{
+	width: 100%;
+	height: 100%;
+	padding-top: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -10,6 +17,7 @@
 	height: 100vh;
 	background: linear-gradient(to bottom, #03a793 0%, #426F97 100%) repeat-y;
 	font-family: $font-family_inter;
+	overflow: scroll;
 }
 .register-a {
 	text-decoration: underline;
@@ -40,7 +48,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 70px 0 70px 0;
 }
 
 .btn-login {

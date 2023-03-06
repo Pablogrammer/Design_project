@@ -14,13 +14,6 @@
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
 }
 
 
@@ -48,7 +41,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	gap: 1.5rem;
+	gap: 2.5rem;
 }
 
 .form-container {
@@ -94,8 +87,9 @@
 		color: $color_black;
 		cursor: pointer;
 		&:hover {
-			background: #03a793;
+			background: $background-color_blur-black;
 			transition: 0.3s all linear;
+			color: white;
 		}
 	}
 }
@@ -117,7 +111,7 @@
 	}
 
 	.contact-container{
-		display: block;
+		display: inline-block;
 
 		.send-button{
 			width: 102%;
@@ -126,7 +120,7 @@
 
 		.map{
 			width: 102%;
-			height: 100%;
+			height: 30vh;
 		}
 	}
 
@@ -148,13 +142,15 @@
 		justify-content: center;
 		row-gap: 1rem;
 		align-content: center;
-		justify-items: center;
+		justify-items: start;
 	}
 	.map {
 		iframe {
-			width: 100%;
+			width: 280px;
 			height: 150%;
 			border-radius: 18px;
+		justify-items: center;
+
 		}
 	}
 
@@ -165,7 +161,7 @@
 	}
 
 	.title{
-		margin: 0;
+		margin: 20 0;
 		padding: 0;
 	}
 
