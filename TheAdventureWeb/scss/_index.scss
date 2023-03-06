@@ -57,7 +57,7 @@
 }
 
 #img_fondo {
-	background: url('../images/fondo_2k.jpg') no-repeat center top;
+	background: url('../images/index/fondo_2k.jpg') no-repeat center top;
 	position: absolute;
 	left: 0;
 	top:80px;
@@ -77,20 +77,20 @@
 
 @media (min-width: 800px) {
 	.fondo {
-		background: url('../images/fondo_1920x1080.jpg') no-repeat center top;
+		background: url('../images/index/fondo_1920x1080.jpg') no-repeat center top;
 	}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 799px) {
 	.fondo {
-		background: url('../images/fondo_tablet.jpg') no-repeat center top;
+		background: url('../images/index/fondo_tablet.jpg') no-repeat center top;
 	}
 
 }
 
 @media only screen and (max-width: 599px) {
 	.fondo {
-		background: url('../images/fondo_movil.jpg') no-repeat center top;
+		background: url('../images/index/fondo_movil.jpg') no-repeat center top;
 	}
 
 }
