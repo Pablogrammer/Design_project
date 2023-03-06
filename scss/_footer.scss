@@ -9,8 +9,6 @@ footer {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-
-	
 }
 
 .footer-container {
@@ -31,4 +29,16 @@ footer {
 #github_logo {
 	width: 40px;
 	height: 40px;
+}
+
+
+@media (max-width: 1200px){
+	footer{
+		height: 40px;
+
+		.footer-container{
+			height: 40px;
+		}
+	}
+
 }

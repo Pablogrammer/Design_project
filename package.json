@@ -10,14 +10,14 @@
     "parcel": "^2.8.3",
     "parcel-plugin-imagemin": "^4.0.2",
     "rimraf": "^4.1.2",
-    "sass": "^1.58.0"
+    "sass": "^1.58.3"
   },
   "name": "project",
   "version": "1.0.0",
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
     "parcel:desarrollo": "parcel html/index.html",
-    "parcel:produccion": "parcel build html/index.html --public-url './'",
+    "parcel:produccion": "parcel build html/index.html --no-cache --public-url .",
     "limpieza": "rimraf dist .cache .cache-loader",
     "des": "npm-run-all limpieza parcel:desarrollo",
     "prod": "npm-run-all limpieza parcel:produccion"
