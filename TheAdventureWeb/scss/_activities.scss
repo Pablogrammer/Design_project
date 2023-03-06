@@ -16,7 +16,14 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 200px;
+}
+
+
+.footer_activities{
+	position: relative;
+	bottom: 0;
+	
 }
 
 //Bootstrap fixings
@@ -29,8 +36,9 @@
 	padding-top:10px;
 }
 
-@media (min-width: 1500px){
+@media (max-width:800px){
 	.content_activities{
-		height: 100vh;
+		margin-top:0;
 	}
 }
+

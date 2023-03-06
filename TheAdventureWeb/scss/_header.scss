@@ -214,6 +214,22 @@
 	
 }
 
+@media (max-width: 1800px){
+	.topnav{
+		height: 80px;
+
+		a{
+			font-size: 20px;
+		}
+
+		.logo{
+			width: 60px;
+		}
+	}
+
+	
+}
+
 @media (max-width: 800px) {
 
 	.logo{

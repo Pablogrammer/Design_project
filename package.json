@@ -16,8 +16,8 @@
   "version": "1.0.0",
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
-    "parcel:desarrollo": "parcel html/index.html",
-    "parcel:produccion": "parcel build html/index.html --no-cache --public-url .",
+    "parcel:desarrollo": "parcel ./TheAdventureWeb/index.html",
+    "parcel:produccion": "parcel build ./TheAdventureWeb/index.html --no-cache --public-url .",
     "limpieza": "rimraf dist .cache .cache-loader",
     "des": "npm-run-all limpieza parcel:desarrollo",
     "prod": "npm-run-all limpieza parcel:produccion"
