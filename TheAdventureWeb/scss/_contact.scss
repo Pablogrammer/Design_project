@@ -2,9 +2,9 @@
 
 /* Here i import the family font Inter */
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
-/* Generic style */
-/* Contact */
-/* This is the map layout including in the form */
+
+
+// body
 
 .contact_body{
 	font-family: $font-family_inter;
@@ -15,6 +15,7 @@
 	padding: 0;
 }
 
+// main content
 
 .content_body {
 	display: flex;
@@ -26,6 +27,7 @@
 
 }
 
+// title
 .title {
 	position: relative;
 	padding: 20px;
@@ -36,6 +38,8 @@
 	font-size: 46px;
 	z-index: -1;
 }
+
+// containers
 
 .contact-container {
 	max-width: 960px;
@@ -49,6 +53,8 @@
 	padding: 20px;
 }
 
+
+// styles for the form
 
 .contact-form {
 
@@ -96,6 +102,7 @@
 	}
 }
 
+// Styles for the map
 
 .map {
 	iframe {
@@ -105,6 +112,8 @@
 	}
 }
 
+
+// medias 
 
 @media (min-width: 1500px){
 

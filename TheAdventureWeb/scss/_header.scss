@@ -1,10 +1,6 @@
-/* This is the specific sign up button */
-/* Hamburguer */
-/*
-   * Emphatic
-   */
 
 
+// positioning
 .topnav {
 	background-color: $color_white;
 	height: 80px;
@@ -33,7 +29,7 @@
 }
 
 
-
+// first part of the nav
 .nav_link {
 	display: flex;
 	flex-direction: row;
@@ -42,6 +38,7 @@
 	align-items: center;
 }
 
+// second part of the nav
 .nav_log {
 	display: flex;
 	flex-direction: row;
@@ -54,6 +51,7 @@
 	}
 }
 
+// hover
 .contact-link {
 	&:hover {
 		background-color: $background-color_blue;
@@ -64,6 +62,7 @@
 	}
 }
 
+// logo
 .logo {
 	padding: 10px;
 	padding-right: 20px;
@@ -73,6 +72,8 @@
 
 }
 
+
+// signup link
 #signup {
 	a {
 		background-color: $background-color_blue;
@@ -81,6 +82,8 @@
 		color: $color_white;
 	}
 }
+
+// hamburger styles: when the nav is under 800px width apears 
 
 .hamburger {
 	padding: 15px 15px;
@@ -198,6 +201,8 @@
 }
 
 
+// medias
+
 @media (max-width: 1200px){
 	.topnav{
 		height: 50px;
@@ -229,6 +234,8 @@
 
 	
 }
+
+// media for the hamburguer appearance under 800px width and the nav goes from top to right.
 
 @media (max-width: 800px) {
 

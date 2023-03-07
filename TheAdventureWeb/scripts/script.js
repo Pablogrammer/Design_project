@@ -1,3 +1,7 @@
+
+// This is the function that change the class of the nav from topnav to responsive
+// When this hapend the styles are updated and the navbar goes from top to right.
+
 function myFunction() {
   var x = document.querySelector(".topnav");
   if (x.className === "topnav") {
@@ -8,6 +12,9 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+// This code identify the hamburguer in the web with the DOM and is looking alwais if the hamburguer is clicked or not.
+
   // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
   // On click

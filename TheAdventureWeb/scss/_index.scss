@@ -1,10 +1,8 @@
 /* Import of the font family 'Inter' */
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
-/* General styles for the hole page */
-/* This is the specific part "ADVENTURE" inside the title */
-/* Positioning the image as a background */
 
 
+// body
 .index_body {
 	font-family: $font-family_inter;
 	background-color: $color_white;
@@ -14,6 +12,7 @@
 	
 }
 
+// title container
 #title-container {
 
 	display: flex;
@@ -26,6 +25,7 @@
 
 }
 
+// title
 #title {
 	margin: 0;
 	font-size: 80px;
@@ -33,19 +33,21 @@
 	color: $color_black;
 	z-index: 1;
 
-
+	// bold part of the title
 	#bold {
 		font-weight: 600;
 		z-index: -1;
 	}
 }
 
+// logo
 #logo_init {
 
 	width: 200px;
 	
 }
 
+// background positioning
 .fondo{
 	z-index: -1;
 	position: absolute;
@@ -56,6 +58,7 @@
 	background-repeat: no-repeat;
 }
 
+// background image
 #img_fondo {
 	background: url('../images/index/fondo_2k.jpg') no-repeat center top;
 	position: absolute;
@@ -65,6 +68,8 @@
 	width: 100%;
 	height: 100vh;
 }
+
+// medias and change of background depending on the resolution
 
 @media screen and (max-width: 800px) {
 	#img_fondo{

@@ -1,8 +1,11 @@
 
+// html styles, needed becouse of bootstrap overflow
+
 html{
 	overflow: scroll;
 }
 
+// containers
 .container_form{
 	width: 100%;
 	height: 100%;
@@ -18,12 +21,15 @@ html{
 	font-family: $font-family_inter;
 	overflow: scroll;
 }
+
+// register link fixing
 .register-a {
 	text-decoration: underline;
 	color: $color_blue;
 	font-size: 15px;
 }
 
+// fixings (  bootstrap is annoying   )
 ul{
     margin: 0;
 }
@@ -41,6 +47,8 @@ a{
     font-weight: 300;
 }
 
+// i have to change the class row to row_form becouse the activity page have a .row class too,
+// so i have to differentiate them
 .row_form {
     width: 100%;
     height: 100vh;
@@ -50,6 +58,7 @@ a{
     padding-top: 70px 0 70px 0;
 }
 
+// buttons styles
 .btn-login {
 	font-size: 0.9rem;
 	letter-spacing: 0.05rem;

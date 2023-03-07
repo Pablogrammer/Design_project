@@ -1,4 +1,7 @@
 /* This position the footer on the bottom and add some general styles like the color and text */
+
+// footer positioning
+
 footer {
 	height: 50px;
 	line-height: 50px;
@@ -11,9 +14,12 @@ footer {
 	bottom: 0;
 }
 
+// container 
 .footer-container {
 	display: flex;
 }
+
+// elements
 
 .github {
 	display: flex;
@@ -31,6 +37,8 @@ footer {
 	height: 40px;
 }
 
+
+// medias
 
 @media (max-width: 1200px){
 	footer{

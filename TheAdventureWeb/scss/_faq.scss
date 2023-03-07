@@ -3,6 +3,9 @@
 /* Generic style */
 
 
+
+// body 
+
 .faq_body {
 	font-family: $font-family_inter;
 
@@ -17,6 +20,9 @@
 
 }
 
+
+// main content
+
 .faq_content{
 	display: flex;
 	flex-direction: column;
@@ -27,11 +33,16 @@
 	margin: 70px 0 70px 0;
 }
 
+
+// title
+
 #title_faq {
 	font-size: 46px;
 	padding: 30px;
 	font-weight: 400;
 }
+
+// containers
 
 .faq-container {
 	width: 80%;
@@ -40,14 +51,14 @@
 	padding: 20px;
 }
 
-
+// question title
 .q_title {
 	font-size: 28px;
 	font-weight: bold;
 	margin: 0;
 }
 
-
+// question container
 
 .question {
 	background-color: $background-color_blur-black;
@@ -74,6 +85,7 @@
 }
 
 
+// medias
 
 @media (min-width: 1600px){
 

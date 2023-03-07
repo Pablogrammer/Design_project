@@ -1,3 +1,7 @@
+
+// Main scss file. this will be the only one linked to every page on the web.
+// all the others files are tied here with an import.
+
 @import "variables";
 @import "header";
 @import "index";
